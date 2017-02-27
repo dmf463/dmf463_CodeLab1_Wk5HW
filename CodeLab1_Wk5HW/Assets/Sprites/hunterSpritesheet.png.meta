@@ -1,9 +1,51 @@
 fileFormatVersion: 2
 guid: 01d707890fc1a2c4bbf960b6fd946378
-timeCreated: 1488156364
+timeCreated: 1488160843
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: hunterSpritesheet_0
+    21300002: hunterSpritesheet_1
+    21300004: hunterSpritesheet_2
+    21300006: hunterSpritesheet_3
+    21300008: hunterSpritesheet_4
+    21300010: hunterSpritesheet_5
+    21300012: hunterSpritesheet_6
+    21300014: hunterSpritesheet_7
+    21300016: hunterSpritesheet_8
+    21300018: hunterSpritesheet_9
+    21300020: hunterSpritesheet_10
+    21300022: hunterSpritesheet_11
+    21300024: hunterSpritesheet_12
+    21300026: hunterSpritesheet_13
+    21300028: hunterSpritesheet_14
+    21300030: hunterSpritesheet_15
+    21300032: hunterSpritesheet_16
+    21300034: hunterSpritesheet_17
+    21300036: hunterSpritesheet_18
+    21300038: hunterSpritesheet_19
+    21300040: hunterSpritesheet_20
+    21300042: hunterSpritesheet_21
+    21300044: hunterSpritesheet_22
+    21300046: hunterSpritesheet_23
+    21300048: hunterSpritesheet_24
+    21300050: hunterSpritesheet_25
+    21300052: hunterSpritesheet_26
+    21300054: hunterSpritesheet_27
+    21300056: hunterSpritesheet_28
+    21300058: hunterSpritesheet_29
+    21300060: hunterSpritesheet_30
+    21300062: hunterSpritesheet_31
+    21300064: hunterSpritesheet_32
+    21300066: hunterSpritesheet_33
+    21300068: hunterSpritesheet_34
+    21300070: hunterSpritesheet_35
+    21300072: hunterSpritesheet_36
+    21300074: hunterSpritesheet_37
+    21300076: hunterSpritesheet_38
+    21300078: hunterSpritesheet_39
+    21300080: hunterSpritesheet_40
+    21300082: hunterSpritesheet_41
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +76,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -92,7 +134,553 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: hunterSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2500
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2500
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2500
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2500
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2500
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2500
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2500
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2000
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2000
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2000
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2000
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2000
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2000
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1500
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1500
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1500
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1500
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1500
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1500
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1000
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1000
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1000
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1000
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1000
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1000
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 500
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 500
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 500
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 500
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 500
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 500
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hunterSpritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 400
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
