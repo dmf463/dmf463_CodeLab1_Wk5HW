@@ -6,14 +6,21 @@ public class EnemyMovementScript : MonoBehaviour
 {
 
     public float speed;
+
     GameObject deer;
+
     PlayerControlScript playerControlScript;
+
+    Animator anim;
+
+    bool deerIsDead = false;
 
     // Use this for initialization
     void Start()
     {
         deer = GameObject.Find("Player");
         playerControlScript = deer.GetComponent<PlayerControlScript>();
+        anim = deer.GetComponent<Animator>();
     }
 
     void OnCollisionEnter (Collision other)
@@ -33,12 +40,15 @@ public class EnemyMovementScript : MonoBehaviour
 
         //Debug.Log("Distance between Hunter and Deer = " + Vector3.Distance(transform.position, deer.transform.position));
 
-        if(Vector3.Distance(transform.position, deer.transform.position) < 5)
+        if (Vector3.Distance(transform.position, deer.transform.position) < 5 && deerIsDead == false)
         {
             Debug.Log("I SEE YOU");
             speed = 0;
-            //playerControlScript.walkSpeed = 0;
-            //playerControlScript.runSpeed = 0;
+            playerControlScript.walkSpeed = 0;
+            playerControlScript.runSpeed = 0;
+            deerIsDead = true;
+            Debug.Log("deerIsDead = " + deerIsDead);
+            anim.SetBool("isDead", true);
         }
     }
 
