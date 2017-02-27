@@ -29,13 +29,14 @@ public class PlayerControlScript : MonoBehaviour {
 
         if (Input.GetKey(shiftKey))
         {
-            Move(Vector3.left, leftKey, runSpeed, null);
-            Move(Vector3.right, rightKey, runSpeed, null);
+            Move(Vector3.left, leftKey, runSpeed, "isRunning");
+            Move(Vector3.right, rightKey, runSpeed, "isRunning");
         }
         else
         {
             Move(Vector3.left, leftKey, walkSpeed, "isWalking");
             Move(Vector3.right, rightKey, walkSpeed, "isWalking");
+            anim.SetBool("isRunning", false);
         }
 
         if (Input.GetKey(leftKey))
@@ -49,6 +50,7 @@ public class PlayerControlScript : MonoBehaviour {
         else
         {
             anim.SetBool("isWalking", false);
+            anim.SetBool("isRunning", false);
         }
 
 //		if(Input.GetKey(KeyCode.W)){
