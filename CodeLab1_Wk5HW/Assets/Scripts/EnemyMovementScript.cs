@@ -37,7 +37,8 @@ public class EnemyMovementScript : MonoBehaviour
         {
             Debug.Log("I SEE YOU");
             speed = 0;
-            playerControlScript.enabled = false;
+            playerControlScript.walkSpeed = 0;
+            playerControlScript.runSpeed = 0;
         }
     }
 

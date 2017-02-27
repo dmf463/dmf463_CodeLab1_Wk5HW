@@ -13,8 +13,13 @@ public class PlayerControlScript : MonoBehaviour {
 	public KeyCode rightKey = KeyCode.D;
     public KeyCode shiftKey = KeyCode.RightShift;
 
+    Animator anim;
+
 	// Use this for initialization
 	void Start () {
+
+        anim = GetComponent<Animator>();
+
 	}
 	
 	// Update is called once per frame
@@ -24,15 +29,27 @@ public class PlayerControlScript : MonoBehaviour {
 
         if (Input.GetKey(shiftKey))
         {
-            Move(Vector3.left, leftKey, runSpeed);
-            Move(Vector3.right, rightKey, runSpeed);
+            Move(Vector3.left, leftKey, runSpeed, null);
+            Move(Vector3.right, rightKey, runSpeed, null);
         }
         else
         {
-            Move(Vector3.left, leftKey, walkSpeed);
-            Move(Vector3.right, rightKey, walkSpeed);
+            Move(Vector3.left, leftKey, walkSpeed, "isWalking");
+            Move(Vector3.right, rightKey, walkSpeed, "isWalking");
         }
 
+        if (Input.GetKey(leftKey))
+        {
+            GetComponent<SpriteRenderer>().flipX = true;
+        }
+        else if(Input.GetKey(rightKey))
+        {
+            GetComponent<SpriteRenderer>().flipX = false;
+        }
+        else
+        {
+            anim.SetBool("isWalking", false);
+        }
 
 //		if(Input.GetKey(KeyCode.W)){
 ////			Debug.Log("This is working");
@@ -44,9 +61,11 @@ public class PlayerControlScript : MonoBehaviour {
 //		}
 	}
 
-	void Move(Vector3 dir, KeyCode key, float movementSpeed){
-		if(Input.GetKey(key)){
+	void Move(Vector3 dir, KeyCode key, float movementSpeed, string animation){
+		if(Input.GetKey(key))
+        {
 			transform.Translate(dir * movementSpeed * Time.deltaTime);
+            anim.SetBool(animation, true);
 		}
 
 	}
