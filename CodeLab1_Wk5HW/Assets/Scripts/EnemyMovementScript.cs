@@ -14,6 +14,7 @@ public class EnemyMovementScript : MonoBehaviour
     Animator anim;
 
     bool deerIsDead = false;
+ 
 
     // Use this for initialization
     void Start()
@@ -56,5 +57,6 @@ public class EnemyMovementScript : MonoBehaviour
     {
         transform.Translate(dir * movementSpeed * Time.deltaTime);
     }
+
 
 }

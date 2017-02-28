@@ -15,8 +15,10 @@ public class PlayerControlScript : MonoBehaviour {
 
     Animator anim;
 
-	// Use this for initialization
-	void Start () {
+    public bool isReallyDead = false;
+
+    // Use this for initialization
+    void Start () {
 
         anim = GetComponent<Animator>();
 
@@ -51,6 +53,12 @@ public class PlayerControlScript : MonoBehaviour {
         {
             anim.SetBool("isWalking", false);
             anim.SetBool("isRunning", false);
+        }
+
+        if (isReallyDead == true)
+        {
+            anim.SetBool("isDead", false);
+            anim.SetBool("isReallyDead", true);
         }
 
 //		if(Input.GetKey(KeyCode.W)){
