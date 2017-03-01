@@ -14,6 +14,7 @@ public class EnemyMovementScript : MonoBehaviour
     Animator anim;
 
     bool deerIsDead = false;
+
  
 
     // Use this for initialization
@@ -41,7 +42,7 @@ public class EnemyMovementScript : MonoBehaviour
 
         //Debug.Log("Distance between Hunter and Deer = " + Vector3.Distance(transform.position, deer.transform.position));
 
-        if (Vector3.Distance(transform.position, deer.transform.position) < 5 && deerIsDead == false)
+        if (Vector3.Distance(transform.position, deer.transform.position) < 5 && deerIsDead == false && playerControlScript.isHiding == false)
         {
             Debug.Log("I SEE YOU");
             speed = 0;

@@ -13,15 +13,26 @@ public class PlayerControlScript : MonoBehaviour {
 	public KeyCode rightKey = KeyCode.D;
     public KeyCode shiftKey = KeyCode.RightShift;
 
+    public GameObject[] rocks;
+
     Animator anim;
 
     public bool isReallyDead = false;
+    GameObject rock;
+    HideScript hidescript;
+
+    public bool isHiding;
 
     // Use this for initialization
     void Start () {
 
+        rocks = GameObject.FindGameObjectsWithTag("rock");
+
         anim = GetComponent<Animator>();
 
+        rock = GameObject.FindGameObjectWithTag("rock");
+
+        hidescript = rock.GetComponent<HideScript>();
 	}
 	
 	// Update is called once per frame
@@ -39,6 +50,17 @@ public class PlayerControlScript : MonoBehaviour {
             Move(Vector3.left, leftKey, walkSpeed, "isWalking");
             Move(Vector3.right, rightKey, walkSpeed, "isWalking");
             anim.SetBool("isRunning", false);
+        }
+
+        Debug.Log("isHiding" + isHiding);
+
+        if (Input.GetKey(downKey) && hidescript.isTouchingRock == true)
+        {
+            isHiding = true;
+        }
+        else
+        {
+            isHiding = false;
         }
 
         if (Input.GetKey(leftKey))
@@ -61,14 +83,6 @@ public class PlayerControlScript : MonoBehaviour {
             anim.SetBool("isReallyDead", true);
         }
 
-//		if(Input.GetKey(KeyCode.W)){
-////			Debug.Log("This is working");
-//			transform.Translate(Vector3.up * speed * Time.deltaTime);
-//		}
-//
-//		if(Input.GetKey(KeyCode.S)){
-//			transform.Translate(Vector3.down * speed * Time.deltaTime);
-//		}
 	}
 
 	void Move(Vector3 dir, KeyCode key, float movementSpeed, string animation){
